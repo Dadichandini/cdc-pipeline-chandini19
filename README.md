@@ -1,3 +1,13 @@
+#### CDC Pipeline: Change Events to Current State + Audit History
+
+#### A Python + SQLite pipeline that turns insert/update/delete events into a current-state table while keeping a full, auditable history. It handles duplicate and out-of-order events, supports safe reruns, traces every rejected record to its source line, and proves correctness with reconciliation checks and 14 automated tests.
+
+#### Highlights:processes 109k events in about 2.4 s | idempotent reruns | soft deletes | 7 reconciliation checks | reproducible synthetic data (fixed seed)
+
+
+
+
+
 # CDC Pipeline: change events to current state + audit history
 
 Processes insert/update/delete events (JSONL) into a **current-state table** while keeping an
