@@ -1,10 +1,6 @@
-#### Interface: https://cdc-pipeline-chandini19
+#### Interface: https://cdc-pipeline-chandini19-hfbkpheeb4ananyh6vwpzm.streamlit.app/
 
-#### hfbkpheeb4ananyh6vwpzm.streamlit.app/
-
-
-
-
+#### 
 
 #### CDC Pipeline: Change Events to Current State + Audit History
 
