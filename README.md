@@ -1,3 +1,11 @@
+#### Interface: https://cdc-pipeline-chandini19
+
+#### hfbkpheeb4ananyh6vwpzm.streamlit.app/
+
+
+
+
+
 #### CDC Pipeline: Change Events to Current State + Audit History
 
 #### A Python + SQLite pipeline that turns insert/update/delete events into a current-state table while keeping a full, auditable history. It handles duplicate and out-of-order events, supports safe reruns, traces every rejected record to its source line, and proves correctness with reconciliation checks and 14 automated tests.
