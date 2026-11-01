@@ -1,0 +1,2 @@
+run_id,source_file,started_at,ended_at,status,input_count,applied_count,stale_count,duplicate_count,rejected_count,failure_reason
+8323a59f6186,data/sample/events.jsonl,2026-10-31T16:36:32.965905Z,2026-10-31T16:36:32.975996Z,success,181,164,9,3,5,

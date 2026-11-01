@@ -1,0 +1,7 @@
+[PASS] every run: input = applied+stale+duplicate+rejected (bad runs) -> 0
+[PASS] history rows - sum(applied+stale) over runs (difference) -> 0
+[PASS] current row != newest event in history (orders) -> 0
+[PASS] orders in history but missing from current -> 0
+[PASS] orphan customer references in current -> 0
+[PASS] final state mismatches vs generator's expected state -> 0
+[PASS] rejects table - injected invalid rows (difference) -> 0

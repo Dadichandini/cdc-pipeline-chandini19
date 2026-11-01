@@ -1,0 +1,6 @@
+run_id,source_file,line_no,reason,raw
+8323a59f6186,data/sample/events.jsonl,14,negative_amount,"{""event_id"": ""B0000004"", ""order_id"": ""O0000008"", ""op"": ""U"", ""event_ts"": ""2026-02-23T06:23:00Z"", ""customer_id"": ""C0024"", ""amount"": -5, ""status"": ""paid""}"
+8323a59f6186,data/sample/events.jsonl,47,invalid_reference:customer_id,"{""event_id"": ""B0000002"", ""order_id"": ""O0000018"", ""op"": ""U"", ""event_ts"": ""2026-02-14T04:08:54Z"", ""customer_id"": ""C9999"", ""amount"": 10.0, ""status"": ""paid""}"
+8323a59f6186,data/sample/events.jsonl,52,missing_or_invalid:order_id,"{""event_id"": ""B0000001"", ""op"": ""U"", ""event_ts"": ""2026-02-24T22:52:10Z"", ""customer_id"": ""C0052"", ""amount"": 10.0, ""status"": ""paid""}"
+8323a59f6186,data/sample/events.jsonl,138,invalid_op,"{""event_id"": ""B0000003"", ""order_id"": ""O0000019"", ""op"": ""X"", ""event_ts"": ""2026-01-03T17:56:10Z"", ""customer_id"": ""C0363"", ""amount"": 10.0, ""status"": ""paid""}"
+8323a59f6186,data/sample/events.jsonl,139,malformed_json,"{""event_id"": ""B0000000"", ""order_id"":"
